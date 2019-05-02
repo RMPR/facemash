@@ -2,8 +2,11 @@
 
 ## Setup the environment:
 
-    python setup.py
-    source venv/bin/activate
+    git clone https://github.com/RMPR/facemash.git
+    python3 -m venv facemash
+    source facemash/bin/activate # for windows search the file activate.bat
+    pip3 install -r requirements.txt
+    python3 server.py runserver
 
 
 ## fill it with data!
